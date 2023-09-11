@@ -39,11 +39,15 @@ namespace sudokuCLI
 
             //6.
             int fillCount = pick.Count(x => !x.Equals('0'));
-            Console.WriteLine($"t:{fillCount} max:{size}");
             Console.WriteLine($"6. Feladat: A feladvány kitöltöttsége: {Math.Round((fillCount/(float)size)*100)}%");
 
+            //7.
+            Console.WriteLine($"7. Feladat: A feladvány kirajzolva: ");
+            Feladvany f = new Feladvany(pick);
+            f.Kirajzol();
 
-
+            //8.
+            File.WriteAllLines($"sudoku{input}.txt",filtered);
             Console.ReadKey();
         }
         public static int getUInput()
@@ -54,5 +58,4 @@ namespace sudokuCLI
             return (input >= 4 && input <= 9) ? input : getUInput();
         }
     }
-
 }

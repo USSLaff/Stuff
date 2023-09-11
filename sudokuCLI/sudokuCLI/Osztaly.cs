@@ -1,3 +1,4 @@
+using System;
 class Feladvany
 {
     public string Kezdo { get; private set; }

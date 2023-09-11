@@ -1,0 +1,7 @@
+C:\Users\kgergő2\skolwork\2023-2024\IKT\gyak\sudokuCLI\sudokuCLI\bin\Debug\sudokuCLI.exe.config
+C:\Users\kgergő2\skolwork\2023-2024\IKT\gyak\sudokuCLI\sudokuCLI\bin\Debug\sudokuCLI.exe
+C:\Users\kgergő2\skolwork\2023-2024\IKT\gyak\sudokuCLI\sudokuCLI\bin\Debug\sudokuCLI.pdb
+C:\Users\kgergő2\skolwork\2023-2024\IKT\gyak\sudokuCLI\sudokuCLI\obj\Debug\sudokuCLI.csproj.AssemblyReference.cache
+C:\Users\kgergő2\skolwork\2023-2024\IKT\gyak\sudokuCLI\sudokuCLI\obj\Debug\sudokuCLI.csproj.CoreCompileInputs.cache
+C:\Users\kgergő2\skolwork\2023-2024\IKT\gyak\sudokuCLI\sudokuCLI\obj\Debug\sudokuCLI.exe
+C:\Users\kgergő2\skolwork\2023-2024\IKT\gyak\sudokuCLI\sudokuCLI\obj\Debug\sudokuCLI.pdb

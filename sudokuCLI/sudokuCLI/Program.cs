@@ -23,17 +23,10 @@ namespace sudokuCLI
             int input = getUInput();
             int size = (int)Math.Pow(input, 2);
             int num = data.Count(x=>x.Length==size);
-            Console.WriteLine($"{num} darab {input} méretű pálya van.");
+            Console.WriteLine($"{input}x{input} méretű feladványból {num} darab van tárolva.");
 
             //5.
-            List<string> filtered = new List<string>();
-            foreach (string item in data)
-            {
-                if (item.Length==size)
-                {
-                    filtered.Add(item);
-                }
-            }
+            List<string> filtered = data.FindAll(x=>x.Length==size);
             string pick = filtered[rnd.Next(0, filtered.Count)];
             Console.WriteLine($"5. Feladat: A kiválasztot feladvány:\n{pick}");
 
